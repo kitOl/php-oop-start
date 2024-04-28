@@ -1,3 +1,8 @@
+:root {
+  --button-bg-color: #2f7fcc;
+  --paragraph-border-left-color: #2f7fcc;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -85,7 +90,7 @@ button,
   /* margin: 20px auto; */
   padding: 10px 30px;
   border: none;
-  background-color: rgb(0, 119, 255);
+  background-color: var(--button-bg-color);
   color: #fff;
   border-radius: 5px;
 }
@@ -109,7 +114,7 @@ button,
 
 .index-intro-c1 p {
   padding: 20px;
-  border-left: 4px solid rgb(123, 170, 185);
+  border-left: 4px solid var(--paragraph-border-left-color);
 }
 
 .video {
@@ -162,11 +167,11 @@ input {
   border-radius: 5px;
   padding: 0 5px;
   background: #e7e4e4;
-  outline-color: rgb(82, 79, 79);
+  outline-color: rgb(158, 153, 153);
 }
 
 .index-login-signup {
-  border-left: 4px solid rgb(123, 170, 185);
+  border-left: 4px solid var(--paragraph-border-left-color);
 }
 
 .index-login-login {
