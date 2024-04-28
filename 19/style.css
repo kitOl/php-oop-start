@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Roboto;
+  /* color: #fff; */
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+h4 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #1e1e1e;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #161616;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav div h3 {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.menu-main,
+.menu-member {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-main a,
+.menu-member a {
+  color: #fff;
+}
+
+.menu-main {
+  margin-left: 40px;
+}
+
+.menu-member {
+  margin-right: 20px;
+}
+
+button,
+.header-login-a,
+.index-intro-c2 a {
+  /* margin: 20px auto; */
+  padding: 10px 30px;
+  border: none;
+  background-color: rgb(0, 119, 255);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.index-intro {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: #424242;
+}
+
+.index-intro-bg {
+}
+
+.index-intro-c1,
+.index-intro-c2 {
+  width: 50%;
+  color: #fff;
+}
+
+.index-intro-c1 p {
+  padding: 20px;
+  border-left: 4px solid rgb(123, 170, 185);
+}
+
+.video {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+  background-color: #ffffffb0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.index-intro-c2 h2 {
+  margin-bottom: 30px;
+  font-size: 70px;
+  line-height: 1.25;
+  /* letter-spacing: 0.05em; */
+}
+
+.index-intro-c2 {
+  padding: 20px;
+}
+
+/* SIGNUP / LOGIN */
+
+.index-login {
+  padding: 80px 0 300px;
+}
+
+.index-login-login,
+.index-login-signup {
+  width: 50%;
+  height: fit-content;
+  padding: 20px;
+}
+
+.index-login h4 {
+  margin-bottom: 20px;
+}
+
+.index-login p {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 55%;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 2.4;
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px;
+  background: #e7e4e4;
+  outline-color: rgb(82, 79, 79);
+}
+
+.index-login-signup {
+  border-left: 4px solid rgb(123, 170, 185);
+}
+
+.index-login-login {
+  background-color: #161616;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.index-login-login h4,
+.index-login-login p {
+  color: #fff;
+}
